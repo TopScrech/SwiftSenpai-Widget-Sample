@@ -1,14 +1,6 @@
-//
-//  IntentHandler.swift
-//  CryptoPriceIntentExtension
-//
-//  Created by Kah Seng Lee on 18/02/2023.
-//
-
 import Intents
 
 class IntentHandler: INExtension, CryptoPriceConfigurationIntentHandling {
-    
     func provideSelectedCryptoOptionsCollection(
         for intent: CryptoPriceConfigurationIntent
     ) async throws -> INObjectCollection<Crypto> {
@@ -18,11 +10,11 @@ class IntentHandler: INExtension, CryptoPriceConfigurationIntentHandling {
         
         // Transform `[Asset]` to `[Crypto]`
         let cryptos = assets.map { asset in
-            
             let crypto = Crypto(
                 identifier: asset.id,
                 display: "\(asset.name) (\(asset.symbol))"
             )
+            
             crypto.symbol = asset.symbol
             crypto.name = asset.name
             
@@ -40,9 +32,6 @@ class IntentHandler: INExtension, CryptoPriceConfigurationIntentHandling {
         // This is the default implementation.  If you want different objects to handle different intents,
         // you can override this and return the handler you want for that particular intent.
         
-        return self
+        self
     }
-    
 }
-
-

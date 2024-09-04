@@ -1,11 +1,3 @@
-//
-//  ColorViews.swift
-//  SwiftSenpai-Widget-Sample
-//
-//  Created by Kah Seng Lee on 02/03/2023.
-//
-
-import Foundation
 import SwiftUI
 
 struct RedView: View {

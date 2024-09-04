@@ -1,14 +1,6 @@
-//
-//  ContentView.swift
-//  SwiftSenpai-Widget-Sample
-//
-//  Created by Kah Seng Lee on 01/12/2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    
     @State private var showRedView = false
     @State private var showBlueView = false
     @State private var showGreenView = false
@@ -46,7 +38,8 @@ struct ContentView: View {
         
         guard
             let scheme = url.scheme,
-            let command = url.host else {
+            let command = url.host
+        else {
             // Invalid URL format
             return
         }
@@ -59,20 +52,22 @@ struct ContentView: View {
         switch command {
         case "show-red":
             showRedView = true
+            
         case "show-blue":
             showBlueView = true
+            
         case "show-orange":
             showOrangeView = true
+            
         case "show-green":
             showGreenView = true
+            
         default:
             break
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }
