@@ -163,7 +163,7 @@
 		18C9976E298E4E2E00EDE784 /* MyTextWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MyTextWidget.intentdefinition; sourceTree = "<group>"; };
 		18C9976F298E4E3D00EDE784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C99771298E4E3D00EDE784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D194962938EC86007E343C /* Intent Handler Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intent Handler Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D194962938EC86007E343C /* SwiftSenpai-Widget-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftSenpai-Widget-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D194992938EC86007E343C /* SwiftSenpai_Widget_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSenpai_Widget_SampleApp.swift; sourceTree = "<group>"; };
 		18D1949B2938EC86007E343C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18D1949D2938EC8A007E343C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -362,7 +362,7 @@
 		18D194972938EC86007E343C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18D194962938EC86007E343C /* Intent Handler Test.app */,
+				18D194962938EC86007E343C /* SwiftSenpai-Widget-Sample.app */,
 				183798682938EE0100B15D98 /* ViewSizeWidgetExtension.appex */,
 				18701D55295EE28800CA0F1E /* CountdownWidgetExtension.appex */,
 				18685FB3297EC8A500C690F7 /* DoggyWidgetExtension.appex */,
@@ -517,9 +517,9 @@
 			productReference = 18C99766298E4E2D00EDE784 /* MyTextWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		18D194952938EC86007E343C /* Intent Handler Test */ = {
+		18D194952938EC86007E343C /* SwiftSenpai-Widget-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D194A42938EC8A007E343C /* Build configuration list for PBXNativeTarget "Intent Handler Test" */;
+			buildConfigurationList = 18D194A42938EC8A007E343C /* Build configuration list for PBXNativeTarget "SwiftSenpai-Widget-Sample" */;
 			buildPhases = (
 				18D194922938EC86007E343C /* Sources */,
 				18D194932938EC86007E343C /* Frameworks */,
@@ -535,9 +535,9 @@
 				18C99775298E4E3E00EDE784 /* PBXTargetDependency */,
 				180EF01329B07A4C0080195E /* PBXTargetDependency */,
 			);
-			name = "Intent Handler Test";
+			name = "SwiftSenpai-Widget-Sample";
 			productName = "SwiftSenpai-Widget-Sample";
-			productReference = 18D194962938EC86007E343C /* Intent Handler Test.app */;
+			productReference = 18D194962938EC86007E343C /* SwiftSenpai-Widget-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -576,7 +576,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18D194912938EC86007E343C /* Build configuration list for PBXProject "Intent Handler Test" */;
+			buildConfigurationList = 18D194912938EC86007E343C /* Build configuration list for PBXProject "SwiftSenpai-Widget-Sample" */;
 			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -589,7 +589,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18D194952938EC86007E343C /* Intent Handler Test */,
+				18D194952938EC86007E343C /* SwiftSenpai-Widget-Sample */,
 				183798672938EE0100B15D98 /* ViewSizeWidgetExtension */,
 				18701D54295EE28800CA0F1E /* CountdownWidgetExtension */,
 				18685FB2297EC8A500C690F7 /* DoggyWidgetExtension */,
@@ -1442,7 +1442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D194912938EC86007E343C /* Build configuration list for PBXProject "Intent Handler Test" */ = {
+		18D194912938EC86007E343C /* Build configuration list for PBXProject "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D194A22938EC8A007E343C /* Debug */,
@@ -1451,7 +1451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18D194A42938EC8A007E343C /* Build configuration list for PBXNativeTarget "Intent Handler Test" */ = {
+		18D194A42938EC8A007E343C /* Build configuration list for PBXNativeTarget "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18D194A52938EC8A007E343C /* Debug */,
