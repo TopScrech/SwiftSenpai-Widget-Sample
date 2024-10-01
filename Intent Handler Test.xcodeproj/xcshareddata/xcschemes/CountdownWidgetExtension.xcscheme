@@ -18,7 +18,7 @@
                BlueprintIdentifier = "18701D54295EE28800CA0F1E"
                BuildableName = "CountdownWidgetExtension.appex"
                BlueprintName = "CountdownWidgetExtension"
-               ReferencedContainer = "container:SwiftSenpai-Widget-Sample.xcodeproj">
+               ReferencedContainer = "container:Intent Handler Test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18D194952938EC86007E343C"
-               BuildableName = "SwiftSenpai-Widget-Sample.app"
-               BlueprintName = "SwiftSenpai-Widget-Sample"
-               ReferencedContainer = "container:SwiftSenpai-Widget-Sample.xcodeproj">
+               BuildableName = "Intent Handler Test.app"
+               BlueprintName = "Intent Handler Test"
+               ReferencedContainer = "container:Intent Handler Test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -65,16 +65,16 @@
             BlueprintIdentifier = "18701D54295EE28800CA0F1E"
             BuildableName = "CountdownWidgetExtension.appex"
             BlueprintName = "CountdownWidgetExtension"
-            ReferencedContainer = "container:SwiftSenpai-Widget-Sample.xcodeproj">
+            ReferencedContainer = "container:Intent Handler Test.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18D194952938EC86007E343C"
-            BuildableName = "SwiftSenpai-Widget-Sample.app"
-            BlueprintName = "SwiftSenpai-Widget-Sample"
-            ReferencedContainer = "container:SwiftSenpai-Widget-Sample.xcodeproj">
+            BuildableName = "Intent Handler Test.app"
+            BlueprintName = "Intent Handler Test"
+            ReferencedContainer = "container:Intent Handler Test.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <EnvironmentVariables>
@@ -108,9 +108,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18D194952938EC86007E343C"
-            BuildableName = "SwiftSenpai-Widget-Sample.app"
-            BlueprintName = "SwiftSenpai-Widget-Sample"
-            ReferencedContainer = "container:SwiftSenpai-Widget-Sample.xcodeproj">
+            BuildableName = "Intent Handler Test.app"
+            BlueprintName = "Intent Handler Test"
+            ReferencedContainer = "container:Intent Handler Test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
