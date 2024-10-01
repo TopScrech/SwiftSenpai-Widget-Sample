@@ -23,7 +23,6 @@
 		1813B88A29A086FF00069A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1813B88929A086FF00069A53 /* Assets.xcassets */; };
 		1813B88C29A086FF00069A53 /* CryptoPriceWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */; };
 		1813B88D29A086FF00069A53 /* CryptoPriceWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */; };
-		1813B89029A086FF00069A53 /* CryptoPriceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1813B88029A086FE00069A53 /* CryptoPriceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1813B8D029A0F64100069A53 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1813B8CF29A0F64100069A53 /* Intents.framework */; };
 		1813B8D329A0F64100069A53 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813B8D229A0F64100069A53 /* IntentHandler.swift */; };
 		1813B8DB29A0F89A00069A53 /* CryptoPriceWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */; };
@@ -72,13 +71,6 @@
 			remoteGlobalIDString = 180EF00329B07A4B0080195E;
 			remoteInfo = TapMeWidgetExtension;
 		};
-		1813B88E29A086FF00069A53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18D1948E2938EC86007E343C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1813B87F29A086FE00069A53;
-			remoteInfo = CryptoPriceWidgetExtension;
-		};
 		183798742938EE0400B15D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 18D1948E2938EC86007E343C /* Project object */;
@@ -118,7 +110,6 @@
 			files = (
 				18701D60295EE29300CA0F1E /* CountdownWidgetExtension.appex in Embed Foundation Extensions */,
 				18C99776298E4E3E00EDE784 /* MyTextWidgetExtension.appex in Embed Foundation Extensions */,
-				1813B89029A086FF00069A53 /* CryptoPriceWidgetExtension.appex in Embed Foundation Extensions */,
 				183798762938EE0400B15D98 /* ViewSizeWidgetExtension.appex in Embed Foundation Extensions */,
 				180EF01429B07A4C0080195E /* TapMeWidgetExtension.appex in Embed Foundation Extensions */,
 				18685FC2297EC8A800C690F7 /* DoggyWidgetExtension.appex in Embed Foundation Extensions */,
@@ -542,7 +533,6 @@
 				18701D5F295EE29300CA0F1E /* PBXTargetDependency */,
 				18685FC1297EC8A800C690F7 /* PBXTargetDependency */,
 				18C99775298E4E3E00EDE784 /* PBXTargetDependency */,
-				1813B88F29A086FF00069A53 /* PBXTargetDependency */,
 				180EF01329B07A4C0080195E /* PBXTargetDependency */,
 			);
 			name = "Intent Handler Test";
@@ -770,11 +760,6 @@
 			isa = PBXTargetDependency;
 			target = 180EF00329B07A4B0080195E /* TapMeWidgetExtension */;
 			targetProxy = 180EF01229B07A4C0080195E /* PBXContainerItemProxy */;
-		};
-		1813B88F29A086FF00069A53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1813B87F29A086FE00069A53 /* CryptoPriceWidgetExtension */;
-			targetProxy = 1813B88E29A086FF00069A53 /* PBXContainerItemProxy */;
 		};
 		183798752938EE0400B15D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
