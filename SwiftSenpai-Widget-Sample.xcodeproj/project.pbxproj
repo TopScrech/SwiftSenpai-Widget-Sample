@@ -3,64 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		180EF00529B07A4B0080195E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986A2938EE0100B15D98 /* WidgetKit.framework */; };
 		180EF00629B07A4B0080195E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986C2938EE0200B15D98 /* SwiftUI.framework */; };
-		180EF00929B07A4B0080195E /* TapMeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EF00829B07A4B0080195E /* TapMeWidgetBundle.swift */; };
-		180EF00B29B07A4B0080195E /* TapMeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EF00A29B07A4B0080195E /* TapMeWidget.swift */; };
-		180EF00E29B07A4C0080195E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EF00D29B07A4C0080195E /* Assets.xcassets */; };
-		180EF01029B07A4C0080195E /* TapMeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 180EF00C29B07A4B0080195E /* TapMeWidget.intentdefinition */; };
-		180EF01129B07A4C0080195E /* TapMeWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 180EF00C29B07A4B0080195E /* TapMeWidget.intentdefinition */; };
 		180EF01429B07A4C0080195E /* TapMeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 180EF00429B07A4B0080195E /* TapMeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		180EF01B29B098300080195E /* ColorViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EF01A29B098300080195E /* ColorViews.swift */; };
 		1813B88129A086FE00069A53 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986A2938EE0100B15D98 /* WidgetKit.framework */; };
 		1813B88229A086FE00069A53 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986C2938EE0200B15D98 /* SwiftUI.framework */; };
-		1813B88529A086FE00069A53 /* CryptoPriceWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88429A086FE00069A53 /* CryptoPriceWidgetBundle.swift */; };
-		1813B88729A086FE00069A53 /* CryptoPriceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88629A086FE00069A53 /* CryptoPriceWidget.swift */; };
-		1813B88A29A086FF00069A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1813B88929A086FF00069A53 /* Assets.xcassets */; };
-		1813B88C29A086FF00069A53 /* CryptoPriceWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */; };
-		1813B88D29A086FF00069A53 /* CryptoPriceWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */; };
 		1813B8D029A0F64100069A53 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1813B8CF29A0F64100069A53 /* Intents.framework */; };
-		1813B8D329A0F64100069A53 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813B8D229A0F64100069A53 /* IntentHandler.swift */; };
-		1813B8DB29A0F89A00069A53 /* CryptoPriceWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */; };
-		1813B8DD29A11FA700069A53 /* AssetFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813B8DC29A11FA700069A53 /* AssetFetcher.swift */; };
-		1813B8DF29A11FA700069A53 /* AssetFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813B8DC29A11FA700069A53 /* AssetFetcher.swift */; };
 		1837986B2938EE0100B15D98 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986A2938EE0100B15D98 /* WidgetKit.framework */; };
 		1837986D2938EE0200B15D98 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986C2938EE0200B15D98 /* SwiftUI.framework */; };
-		183798702938EE0200B15D98 /* ViewSizeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837986F2938EE0200B15D98 /* ViewSizeWidget.swift */; };
-		183798722938EE0400B15D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183798712938EE0400B15D98 /* Assets.xcassets */; };
 		183798762938EE0400B15D98 /* ViewSizeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 183798682938EE0100B15D98 /* ViewSizeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		18685FB4297EC8A500C690F7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986A2938EE0100B15D98 /* WidgetKit.framework */; };
 		18685FB5297EC8A500C690F7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986C2938EE0200B15D98 /* SwiftUI.framework */; };
-		18685FBC297EC8A500C690F7 /* DoggyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18685FBB297EC8A500C690F7 /* DoggyWidget.swift */; };
-		18685FBE297EC8A800C690F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18685FBD297EC8A800C690F7 /* Assets.xcassets */; };
 		18685FC2297EC8A800C690F7 /* DoggyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18685FB3297EC8A500C690F7 /* DoggyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		18685FC8297ED1EC00C690F7 /* DoggyFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18685FC6297ECF8800C690F7 /* DoggyFetcher.swift */; };
 		18701D56295EE28800CA0F1E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986A2938EE0100B15D98 /* WidgetKit.framework */; };
 		18701D57295EE28800CA0F1E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986C2938EE0200B15D98 /* SwiftUI.framework */; };
-		18701D5A295EE28800CA0F1E /* CountdownWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18701D59295EE28800CA0F1E /* CountdownWidget.swift */; };
-		18701D5C295EE29300CA0F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18701D5B295EE29300CA0F1E /* Assets.xcassets */; };
 		18701D60295EE29300CA0F1E /* CountdownWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18701D55295EE28800CA0F1E /* CountdownWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		187E7E342943620B0000871A /* CircularWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7E332943620B0000871A /* CircularWidgetView.swift */; };
-		187E7E36294362320000871A /* InlineWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7E35294362320000871A /* InlineWidgetView.swift */; };
-		187E7E38294362410000871A /* RectangularWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7E37294362410000871A /* RectangularWidgetView.swift */; };
 		18C99767298E4E2D00EDE784 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986A2938EE0100B15D98 /* WidgetKit.framework */; };
 		18C99768298E4E2D00EDE784 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837986C2938EE0200B15D98 /* SwiftUI.framework */; };
-		18C9976B298E4E2E00EDE784 /* MyTextWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9976A298E4E2E00EDE784 /* MyTextWidgetBundle.swift */; };
-		18C9976D298E4E2E00EDE784 /* MyTextWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9976C298E4E2E00EDE784 /* MyTextWidget.swift */; };
-		18C99770298E4E3D00EDE784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C9976F298E4E3D00EDE784 /* Assets.xcassets */; };
-		18C99772298E4E3D00EDE784 /* MyTextWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 18C9976E298E4E2E00EDE784 /* MyTextWidget.intentdefinition */; };
-		18C99773298E4E3E00EDE784 /* MyTextWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 18C9976E298E4E2E00EDE784 /* MyTextWidget.intentdefinition */; };
 		18C99776298E4E3E00EDE784 /* MyTextWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18C99766298E4E2D00EDE784 /* MyTextWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		18D0505329A231A800F0381E /* AssetFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813B8DC29A11FA700069A53 /* AssetFetcher.swift */; };
-		18D1949A2938EC86007E343C /* SwiftSenpai_Widget_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D194992938EC86007E343C /* SwiftSenpai_Widget_SampleApp.swift */; };
-		18D1949C2938EC86007E343C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1949B2938EC86007E343C /* ContentView.swift */; };
-		18D1949E2938EC8A007E343C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D1949D2938EC8A007E343C /* Assets.xcassets */; };
-		18D194A12938EC8A007E343C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D194A02938EC8A007E343C /* Preview Assets.xcassets */; };
-		18D52AFF2945FDBD00BCA6E8 /* HomeScreenWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D52AFE2945FDBD00BCA6E8 /* HomeScreenWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,9 +68,8 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		183798772938EE0400B15D98 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolder = PlugIns;
 			files = (
 				18701D60295EE29300CA0F1E /* CountdownWidgetExtension.appex in Embed Foundation Extensions */,
 				18C99776298E4E3E00EDE784 /* MyTextWidgetExtension.appex in Embed Foundation Extensions */,
@@ -115,169 +78,240 @@
 				18685FC2297EC8A800C690F7 /* DoggyWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		180EF00429B07A4B0080195E /* TapMeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TapMeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		180EF00829B07A4B0080195E /* TapMeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeWidgetBundle.swift; sourceTree = "<group>"; };
-		180EF00A29B07A4B0080195E /* TapMeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeWidget.swift; sourceTree = "<group>"; };
-		180EF00C29B07A4B0080195E /* TapMeWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TapMeWidget.intentdefinition; sourceTree = "<group>"; };
-		180EF00D29B07A4C0080195E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		180EF00F29B07A4C0080195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		180EF01A29B098300080195E /* ColorViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViews.swift; sourceTree = "<group>"; };
 		1813B88029A086FE00069A53 /* CryptoPriceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptoPriceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1813B88429A086FE00069A53 /* CryptoPriceWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceWidgetBundle.swift; sourceTree = "<group>"; };
-		1813B88629A086FE00069A53 /* CryptoPriceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceWidget.swift; sourceTree = "<group>"; };
-		1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CryptoPriceWidget.intentdefinition; sourceTree = "<group>"; };
-		1813B88929A086FF00069A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1813B88B29A086FF00069A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1813B8CE29A0F64100069A53 /* CryptoPriceIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptoPriceIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1813B8CF29A0F64100069A53 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		1813B8D229A0F64100069A53 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		1813B8D429A0F64100069A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1813B8DC29A11FA700069A53 /* AssetFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetFetcher.swift; sourceTree = "<group>"; };
 		183798682938EE0100B15D98 /* ViewSizeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ViewSizeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1837986A2938EE0100B15D98 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		1837986C2938EE0200B15D98 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		1837986F2938EE0200B15D98 /* ViewSizeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSizeWidget.swift; sourceTree = "<group>"; };
-		183798712938EE0400B15D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		183798732938EE0400B15D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18685FB3297EC8A500C690F7 /* DoggyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoggyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		18685FBB297EC8A500C690F7 /* DoggyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggyWidget.swift; sourceTree = "<group>"; };
-		18685FBD297EC8A800C690F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18685FBF297EC8A800C690F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18685FC6297ECF8800C690F7 /* DoggyFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggyFetcher.swift; sourceTree = "<group>"; };
 		18701D55295EE28800CA0F1E /* CountdownWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CountdownWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		18701D59295EE28800CA0F1E /* CountdownWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownWidget.swift; sourceTree = "<group>"; };
-		18701D5B295EE29300CA0F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18701D5D295EE29300CA0F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18701D64295EE96700CA0F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		187E7E332943620B0000871A /* CircularWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularWidgetView.swift; sourceTree = "<group>"; };
-		187E7E35294362320000871A /* InlineWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineWidgetView.swift; sourceTree = "<group>"; };
-		187E7E37294362410000871A /* RectangularWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularWidgetView.swift; sourceTree = "<group>"; };
 		18C99766298E4E2D00EDE784 /* MyTextWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyTextWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		18C9976A298E4E2E00EDE784 /* MyTextWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextWidgetBundle.swift; sourceTree = "<group>"; };
-		18C9976C298E4E2E00EDE784 /* MyTextWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextWidget.swift; sourceTree = "<group>"; };
-		18C9976E298E4E2E00EDE784 /* MyTextWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MyTextWidget.intentdefinition; sourceTree = "<group>"; };
-		18C9976F298E4E3D00EDE784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18C99771298E4E3D00EDE784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D194962938EC86007E343C /* SwiftSenpai-Widget-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftSenpai-Widget-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D194992938EC86007E343C /* SwiftSenpai_Widget_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSenpai_Widget_SampleApp.swift; sourceTree = "<group>"; };
-		18D1949B2938EC86007E343C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		18D1949D2938EC8A007E343C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18D194A02938EC8A007E343C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18D52AFE2945FDBD00BCA6E8 /* HomeScreenWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		180EF00129B07A4B0080195E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				180EF00629B07A4B0080195E /* SwiftUI.framework in Frameworks */,
-				180EF00529B07A4B0080195E /* WidgetKit.framework in Frameworks */,
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F34958592F4A108E008B2C4D /* Exceptions for "SwiftSenpai-Widget-Sample" folder in "SwiftSenpai-Widget-Sample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 18D194952938EC86007E343C /* SwiftSenpai-Widget-Sample */;
 		};
-		1813B87D29A086FE00069A53 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1813B88229A086FE00069A53 /* SwiftUI.framework in Frameworks */,
-				1813B88129A086FE00069A53 /* WidgetKit.framework in Frameworks */,
+		F349585A2F4A108E008B2C4D /* Exceptions for "ViewSizeWidget" folder in "ViewSizeWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 183798672938EE0100B15D98 /* ViewSizeWidgetExtension */;
 		};
-		1813B8CB29A0F64100069A53 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1813B8D029A0F64100069A53 /* Intents.framework in Frameworks */,
+		F349585B2F4A108E008B2C4D /* Exceptions for "CountdownWidget" folder in "CountdownWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 18701D54295EE28800CA0F1E /* CountdownWidgetExtension */;
 		};
-		183798652938EE0100B15D98 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1837986D2938EE0200B15D98 /* SwiftUI.framework in Frameworks */,
-				1837986B2938EE0100B15D98 /* WidgetKit.framework in Frameworks */,
+		F349585C2F4A108E008B2C4D /* Exceptions for "DoggyWidget" folder in "DoggyWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 18685FB2297EC8A500C690F7 /* DoggyWidgetExtension */;
 		};
-		18685FB0297EC8A500C690F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18685FB5297EC8A500C690F7 /* SwiftUI.framework in Frameworks */,
-				18685FB4297EC8A500C690F7 /* WidgetKit.framework in Frameworks */,
+		F349585D2F4A108E008B2C4D /* Exceptions for "MyTextWidget" folder in "SwiftSenpai-Widget-Sample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MyTextWidget.intentdefinition,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 18D194952938EC86007E343C /* SwiftSenpai-Widget-Sample */;
 		};
-		18701D52295EE28800CA0F1E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18701D57295EE28800CA0F1E /* SwiftUI.framework in Frameworks */,
-				18701D56295EE28800CA0F1E /* WidgetKit.framework in Frameworks */,
+		F349585E2F4A108E008B2C4D /* Exceptions for "MyTextWidget" folder in "MyTextWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 18C99765298E4E2C00EDE784 /* MyTextWidgetExtension */;
 		};
-		18C99763298E4E2C00EDE784 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18C99768298E4E2D00EDE784 /* SwiftUI.framework in Frameworks */,
-				18C99767298E4E2D00EDE784 /* WidgetKit.framework in Frameworks */,
+		F349585F2F4A108E008B2C4D /* Exceptions for "TapMeWidget" folder in "SwiftSenpai-Widget-Sample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TapMeWidget.intentdefinition,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 18D194952938EC86007E343C /* SwiftSenpai-Widget-Sample */;
 		};
-		18D194932938EC86007E343C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+		F34958602F4A108E008B2C4D /* Exceptions for "TapMeWidget" folder in "TapMeWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			target = 180EF00329B07A4B0080195E /* TapMeWidgetExtension */;
 		};
-/* End PBXFrameworksBuildPhase section */
+		F34958612F4A108E008B2C4D /* Exceptions for "CryptoPriceWidget" folder in "SwiftSenpai-Widget-Sample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AssetFetcher.swift,
+				CryptoPriceWidget.intentdefinition,
+			);
+			target = 18D194952938EC86007E343C /* SwiftSenpai-Widget-Sample */;
+		};
+		F34958622F4A108E008B2C4D /* Exceptions for "CryptoPriceWidget" folder in "CryptoPriceWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1813B87F29A086FE00069A53 /* CryptoPriceWidgetExtension */;
+		};
+		F34958632F4A108E008B2C4D /* Exceptions for "CryptoPriceWidget" folder in "CryptoPriceIntentExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AssetFetcher.swift,
+				CryptoPriceWidget.intentdefinition,
+			);
+			target = 1813B8CD29A0F64100069A53 /* CryptoPriceIntentExtension */;
+		};
+		F34958642F4A108E008B2C4D /* Exceptions for "CryptoPriceIntentExtension" folder in "CryptoPriceIntentExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IntentHandler.swift,
+			);
+			target = 1813B8CD29A0F64100069A53 /* CryptoPriceIntentExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXGroup section */
-		180EF00729B07A4B0080195E /* TapMeWidget */ = {
-			isa = PBXGroup;
-			children = (
-				180EF00829B07A4B0080195E /* TapMeWidgetBundle.swift */,
-				180EF00A29B07A4B0080195E /* TapMeWidget.swift */,
-				180EF00C29B07A4B0080195E /* TapMeWidget.intentdefinition */,
-				180EF00D29B07A4C0080195E /* Assets.xcassets */,
-				180EF00F29B07A4C0080195E /* Info.plist */,
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F34958032F4A108D008B2C4D /* MyTextWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F349585D2F4A108E008B2C4D /* Exceptions for "MyTextWidget" folder in "SwiftSenpai-Widget-Sample" target */,
+				F349585E2F4A108E008B2C4D /* Exceptions for "MyTextWidget" folder in "MyTextWidgetExtension" target */,
+			);
+			path = MyTextWidget;
+			sourceTree = "<group>";
+		};
+		F349580F2F4A108D008B2C4D /* TapMeWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F349585F2F4A108E008B2C4D /* Exceptions for "TapMeWidget" folder in "SwiftSenpai-Widget-Sample" target */,
+				F34958602F4A108E008B2C4D /* Exceptions for "TapMeWidget" folder in "TapMeWidgetExtension" target */,
 			);
 			path = TapMeWidget;
 			sourceTree = "<group>";
 		};
-		1813B88329A086FE00069A53 /* CryptoPriceWidget */ = {
-			isa = PBXGroup;
-			children = (
-				1813B88429A086FE00069A53 /* CryptoPriceWidgetBundle.swift */,
-				1813B88629A086FE00069A53 /* CryptoPriceWidget.swift */,
-				1813B88829A086FE00069A53 /* CryptoPriceWidget.intentdefinition */,
-				1813B8DC29A11FA700069A53 /* AssetFetcher.swift */,
-				1813B88929A086FF00069A53 /* Assets.xcassets */,
-				1813B88B29A086FF00069A53 /* Info.plist */,
+		F349581C2F4A108D008B2C4D /* CryptoPriceWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F34958612F4A108E008B2C4D /* Exceptions for "CryptoPriceWidget" folder in "SwiftSenpai-Widget-Sample" target */,
+				F34958622F4A108E008B2C4D /* Exceptions for "CryptoPriceWidget" folder in "CryptoPriceWidgetExtension" target */,
+				F34958632F4A108E008B2C4D /* Exceptions for "CryptoPriceWidget" folder in "CryptoPriceIntentExtension" target */,
 			);
 			path = CryptoPriceWidget;
 			sourceTree = "<group>";
 		};
-		1813B8D129A0F64100069A53 /* CryptoPriceIntentExtension */ = {
-			isa = PBXGroup;
-			children = (
-				1813B8D229A0F64100069A53 /* IntentHandler.swift */,
-				1813B8D429A0F64100069A53 /* Info.plist */,
+		F349582F2F4A108D008B2C4D /* ViewSizeWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F349585A2F4A108E008B2C4D /* Exceptions for "ViewSizeWidget" folder in "ViewSizeWidgetExtension" target */,
+			);
+			path = ViewSizeWidget;
+			sourceTree = "<group>";
+		};
+		F349583E2F4A108E008B2C4D /* SwiftSenpai-Widget-Sample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F34958592F4A108E008B2C4D /* Exceptions for "SwiftSenpai-Widget-Sample" folder in "SwiftSenpai-Widget-Sample" target */,
+			);
+			path = "SwiftSenpai-Widget-Sample";
+			sourceTree = "<group>";
+		};
+		F34958492F4A108E008B2C4D /* DoggyWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F349585C2F4A108E008B2C4D /* Exceptions for "DoggyWidget" folder in "DoggyWidgetExtension" target */,
+			);
+			path = DoggyWidget;
+			sourceTree = "<group>";
+		};
+		F34958512F4A108E008B2C4D /* CountdownWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F349585B2F4A108E008B2C4D /* Exceptions for "CountdownWidget" folder in "CountdownWidgetExtension" target */,
+			);
+			path = CountdownWidget;
+			sourceTree = "<group>";
+		};
+		F34958572F4A108E008B2C4D /* CryptoPriceIntentExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F34958642F4A108E008B2C4D /* Exceptions for "CryptoPriceIntentExtension" folder in "CryptoPriceIntentExtension" target */,
 			);
 			path = CryptoPriceIntentExtension;
 			sourceTree = "<group>";
 		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180EF00129B07A4B0080195E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				180EF00629B07A4B0080195E /* SwiftUI.framework in Frameworks */,
+				180EF00529B07A4B0080195E /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		1813B87D29A086FE00069A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				1813B88229A086FE00069A53 /* SwiftUI.framework in Frameworks */,
+				1813B88129A086FE00069A53 /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		1813B8CB29A0F64100069A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				1813B8D029A0F64100069A53 /* Intents.framework in Frameworks */,
+			);
+		};
+		183798652938EE0100B15D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				1837986D2938EE0200B15D98 /* SwiftUI.framework in Frameworks */,
+				1837986B2938EE0100B15D98 /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		18685FB0297EC8A500C690F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				18685FB5297EC8A500C690F7 /* SwiftUI.framework in Frameworks */,
+				18685FB4297EC8A500C690F7 /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		18701D52295EE28800CA0F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				18701D57295EE28800CA0F1E /* SwiftUI.framework in Frameworks */,
+				18701D56295EE28800CA0F1E /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		18C99763298E4E2C00EDE784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				18C99768298E4E2D00EDE784 /* SwiftUI.framework in Frameworks */,
+				18C99767298E4E2D00EDE784 /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		18D194932938EC86007E343C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
 		183798692938EE0100B15D98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,72 +322,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1837986E2938EE0200B15D98 /* ViewSizeWidget */ = {
-			isa = PBXGroup;
-			children = (
-				187E7E322943611C0000871A /* Widget View */,
-				1837986F2938EE0200B15D98 /* ViewSizeWidget.swift */,
-				183798712938EE0400B15D98 /* Assets.xcassets */,
-				183798732938EE0400B15D98 /* Info.plist */,
-			);
-			path = ViewSizeWidget;
-			sourceTree = "<group>";
-		};
-		18685FB6297EC8A500C690F7 /* DoggyWidget */ = {
-			isa = PBXGroup;
-			children = (
-				18685FBB297EC8A500C690F7 /* DoggyWidget.swift */,
-				18685FC6297ECF8800C690F7 /* DoggyFetcher.swift */,
-				18685FBD297EC8A800C690F7 /* Assets.xcassets */,
-				18685FBF297EC8A800C690F7 /* Info.plist */,
-			);
-			path = DoggyWidget;
-			sourceTree = "<group>";
-		};
-		18701D58295EE28800CA0F1E /* CountdownWidget */ = {
-			isa = PBXGroup;
-			children = (
-				18701D59295EE28800CA0F1E /* CountdownWidget.swift */,
-				18701D5B295EE29300CA0F1E /* Assets.xcassets */,
-				18701D5D295EE29300CA0F1E /* Info.plist */,
-			);
-			path = CountdownWidget;
-			sourceTree = "<group>";
-		};
-		187E7E322943611C0000871A /* Widget View */ = {
-			isa = PBXGroup;
-			children = (
-				187E7E37294362410000871A /* RectangularWidgetView.swift */,
-				187E7E332943620B0000871A /* CircularWidgetView.swift */,
-				187E7E35294362320000871A /* InlineWidgetView.swift */,
-				18D52AFE2945FDBD00BCA6E8 /* HomeScreenWidgetView.swift */,
-			);
-			path = "Widget View";
-			sourceTree = "<group>";
-		};
-		18C99769298E4E2E00EDE784 /* MyTextWidget */ = {
-			isa = PBXGroup;
-			children = (
-				18C9976A298E4E2E00EDE784 /* MyTextWidgetBundle.swift */,
-				18C9976C298E4E2E00EDE784 /* MyTextWidget.swift */,
-				18C9976E298E4E2E00EDE784 /* MyTextWidget.intentdefinition */,
-				18C9976F298E4E3D00EDE784 /* Assets.xcassets */,
-				18C99771298E4E3D00EDE784 /* Info.plist */,
-			);
-			path = MyTextWidget;
-			sourceTree = "<group>";
-		};
 		18D1948D2938EC86007E343C = {
 			isa = PBXGroup;
 			children = (
-				18D194982938EC86007E343C /* SwiftSenpai-Widget-Sample */,
-				1837986E2938EE0200B15D98 /* ViewSizeWidget */,
-				18701D58295EE28800CA0F1E /* CountdownWidget */,
-				18685FB6297EC8A500C690F7 /* DoggyWidget */,
-				18C99769298E4E2E00EDE784 /* MyTextWidget */,
-				1813B88329A086FE00069A53 /* CryptoPriceWidget */,
-				1813B8D129A0F64100069A53 /* CryptoPriceIntentExtension */,
-				180EF00729B07A4B0080195E /* TapMeWidget */,
+				F349583E2F4A108E008B2C4D /* SwiftSenpai-Widget-Sample */,
+				F349582F2F4A108D008B2C4D /* ViewSizeWidget */,
+				F34958512F4A108E008B2C4D /* CountdownWidget */,
+				F34958492F4A108E008B2C4D /* DoggyWidget */,
+				F34958032F4A108D008B2C4D /* MyTextWidget */,
+				F349581C2F4A108D008B2C4D /* CryptoPriceWidget */,
+				F34958572F4A108E008B2C4D /* CryptoPriceIntentExtension */,
+				F349580F2F4A108D008B2C4D /* TapMeWidget */,
 				183798692938EE0100B15D98 /* Frameworks */,
 				18D194972938EC86007E343C /* Products */,
 			);
@@ -374,27 +353,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18D194982938EC86007E343C /* SwiftSenpai-Widget-Sample */ = {
-			isa = PBXGroup;
-			children = (
-				18701D64295EE96700CA0F1E /* Info.plist */,
-				18D194992938EC86007E343C /* SwiftSenpai_Widget_SampleApp.swift */,
-				18D1949B2938EC86007E343C /* ContentView.swift */,
-				180EF01A29B098300080195E /* ColorViews.swift */,
-				18D1949D2938EC8A007E343C /* Assets.xcassets */,
-				18D1949F2938EC8A007E343C /* Preview Content */,
-			);
-			path = "SwiftSenpai-Widget-Sample";
-			sourceTree = "<group>";
-		};
-		18D1949F2938EC8A007E343C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				18D194A02938EC8A007E343C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -408,7 +366,8 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				F349580F2F4A108D008B2C4D /* TapMeWidget */,
 			);
 			name = TapMeWidgetExtension;
 			productName = TapMeWidgetExtension;
@@ -425,7 +384,8 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				F349581C2F4A108D008B2C4D /* CryptoPriceWidget */,
 			);
 			name = CryptoPriceWidgetExtension;
 			productName = CryptoPriceWidgetExtension;
@@ -442,8 +402,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = CryptoPriceIntentExtension;
 			productName = CryptoPriceIntentExtension;
 			productReference = 1813B8CE29A0F64100069A53 /* CryptoPriceIntentExtension.appex */;
@@ -459,7 +417,8 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				F349582F2F4A108D008B2C4D /* ViewSizeWidget */,
 			);
 			name = ViewSizeWidgetExtension;
 			productName = ViewSizeWidgetExtension;
@@ -476,7 +435,8 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				F34958492F4A108E008B2C4D /* DoggyWidget */,
 			);
 			name = DoggyWidgetExtension;
 			productName = DoggyWidgetExtension;
@@ -493,7 +453,8 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				F34958512F4A108E008B2C4D /* CountdownWidget */,
 			);
 			name = CountdownWidgetExtension;
 			productName = CountdownWidgetExtension;
@@ -510,7 +471,8 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				F34958032F4A108D008B2C4D /* MyTextWidget */,
 			);
 			name = MyTextWidgetExtension;
 			productName = MyTextWidgetExtension;
@@ -535,6 +497,9 @@
 				18C99775298E4E3E00EDE784 /* PBXTargetDependency */,
 				180EF01329B07A4C0080195E /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				F349583E2F4A108E008B2C4D /* SwiftSenpai-Widget-Sample */,
+			);
 			name = "SwiftSenpai-Widget-Sample";
 			productName = "SwiftSenpai-Widget-Sample";
 			productReference = 18D194962938EC86007E343C /* SwiftSenpai-Widget-Sample.app */;
@@ -548,7 +513,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					180EF00329B07A4B0080195E = {
 						CreatedOnToolsVersion = 14.2;
@@ -577,7 +542,6 @@
 				};
 			};
 			buildConfigurationList = 18D194912938EC86007E343C /* Build configuration list for PBXProject "SwiftSenpai-Widget-Sample" */;
-			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -585,6 +549,7 @@
 				Base,
 			);
 			mainGroup = 18D1948D2938EC86007E343C;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 18D194972938EC86007E343C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -604,154 +569,86 @@
 /* Begin PBXResourcesBuildPhase section */
 		180EF00229B07A4B0080195E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				180EF00E29B07A4C0080195E /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1813B87E29A086FE00069A53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				1813B88A29A086FF00069A53 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1813B8CC29A0F64100069A53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		183798662938EE0100B15D98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				183798722938EE0400B15D98 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18685FB1297EC8A500C690F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18685FBE297EC8A800C690F7 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18701D53295EE28800CA0F1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18701D5C295EE29300CA0F1E /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18C99764298E4E2C00EDE784 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18C99770298E4E3D00EDE784 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18D194942938EC86007E343C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18D194A12938EC8A007E343C /* Preview Assets.xcassets in Resources */,
-				18D1949E2938EC8A007E343C /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		180EF00029B07A4B0080195E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				180EF01029B07A4C0080195E /* TapMeWidget.intentdefinition in Sources */,
-				180EF00929B07A4B0080195E /* TapMeWidgetBundle.swift in Sources */,
-				180EF00B29B07A4B0080195E /* TapMeWidget.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1813B87C29A086FE00069A53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				1813B8DF29A11FA700069A53 /* AssetFetcher.swift in Sources */,
-				1813B88729A086FE00069A53 /* CryptoPriceWidget.swift in Sources */,
-				1813B88529A086FE00069A53 /* CryptoPriceWidgetBundle.swift in Sources */,
-				1813B88C29A086FF00069A53 /* CryptoPriceWidget.intentdefinition in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1813B8CA29A0F64100069A53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18D0505329A231A800F0381E /* AssetFetcher.swift in Sources */,
-				1813B8D329A0F64100069A53 /* IntentHandler.swift in Sources */,
-				1813B8DB29A0F89A00069A53 /* CryptoPriceWidget.intentdefinition in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		183798642938EE0100B15D98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				183798702938EE0200B15D98 /* ViewSizeWidget.swift in Sources */,
-				187E7E38294362410000871A /* RectangularWidgetView.swift in Sources */,
-				187E7E36294362320000871A /* InlineWidgetView.swift in Sources */,
-				187E7E342943620B0000871A /* CircularWidgetView.swift in Sources */,
-				18D52AFF2945FDBD00BCA6E8 /* HomeScreenWidgetView.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18685FAF297EC8A500C690F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18685FC8297ED1EC00C690F7 /* DoggyFetcher.swift in Sources */,
-				18685FBC297EC8A500C690F7 /* DoggyWidget.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18701D51295EE28800CA0F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18701D5A295EE28800CA0F1E /* CountdownWidget.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18C99762298E4E2C00EDE784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				18C99772298E4E3D00EDE784 /* MyTextWidget.intentdefinition in Sources */,
-				18C9976D298E4E2E00EDE784 /* MyTextWidget.swift in Sources */,
-				18C9976B298E4E2E00EDE784 /* MyTextWidgetBundle.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		18D194922938EC86007E343C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				180EF01129B07A4C0080195E /* TapMeWidget.intentdefinition in Sources */,
-				18D1949C2938EC86007E343C /* ContentView.swift in Sources */,
-				18C99773298E4E3E00EDE784 /* MyTextWidget.intentdefinition in Sources */,
-				18D1949A2938EC86007E343C /* SwiftSenpai_Widget_SampleApp.swift in Sources */,
-				1813B88D29A086FF00069A53 /* CryptoPriceWidget.intentdefinition in Sources */,
-				1813B8DD29A11FA700069A53 /* AssetFetcher.swift in Sources */,
-				180EF01B29B098300080195E /* ColorViews.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -784,14 +681,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		180EF01529B07A4C0080195E /* Debug */ = {
+		180EF01529B07A4C0080195E /* Debug configuration for PBXNativeTarget "TapMeWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TapMeWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TapMeWidget;
@@ -812,14 +708,13 @@
 			};
 			name = Debug;
 		};
-		180EF01629B07A4C0080195E /* Release */ = {
+		180EF01629B07A4C0080195E /* Release configuration for PBXNativeTarget "TapMeWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TapMeWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TapMeWidget;
@@ -840,7 +735,7 @@
 			};
 			name = Release;
 		};
-		1813B89129A086FF00069A53 /* Debug */ = {
+		1813B89129A086FF00069A53 /* Debug configuration for PBXNativeTarget "CryptoPriceWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -848,7 +743,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoPriceWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceWidget;
@@ -870,7 +764,7 @@
 			};
 			name = Debug;
 		};
-		1813B89229A086FF00069A53 /* Release */ = {
+		1813B89229A086FF00069A53 /* Release configuration for PBXNativeTarget "CryptoPriceWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -878,7 +772,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoPriceWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceWidget;
@@ -900,13 +793,12 @@
 			};
 			name = Release;
 		};
-		1813B8D829A0F64100069A53 /* Debug */ = {
+		1813B8D829A0F64100069A53 /* Debug configuration for PBXNativeTarget "CryptoPriceIntentExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoPriceIntentExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceIntentExtension;
@@ -928,13 +820,12 @@
 			};
 			name = Debug;
 		};
-		1813B8D929A0F64100069A53 /* Release */ = {
+		1813B8D929A0F64100069A53 /* Release configuration for PBXNativeTarget "CryptoPriceIntentExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoPriceIntentExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceIntentExtension;
@@ -956,7 +847,7 @@
 			};
 			name = Release;
 		};
-		183798782938EE0400B15D98 /* Debug */ = {
+		183798782938EE0400B15D98 /* Debug configuration for PBXNativeTarget "ViewSizeWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -964,7 +855,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ViewSizeWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ViewSizeWidget;
@@ -985,7 +875,7 @@
 			};
 			name = Debug;
 		};
-		183798792938EE0400B15D98 /* Release */ = {
+		183798792938EE0400B15D98 /* Release configuration for PBXNativeTarget "ViewSizeWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -993,7 +883,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ViewSizeWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ViewSizeWidget;
@@ -1014,7 +903,7 @@
 			};
 			name = Release;
 		};
-		18685FC3297EC8A900C690F7 /* Debug */ = {
+		18685FC3297EC8A900C690F7 /* Debug configuration for PBXNativeTarget "DoggyWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1022,7 +911,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DoggyWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DoggyWidget;
@@ -1044,7 +932,7 @@
 			};
 			name = Debug;
 		};
-		18685FC4297EC8A900C690F7 /* Release */ = {
+		18685FC4297EC8A900C690F7 /* Release configuration for PBXNativeTarget "DoggyWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1052,7 +940,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DoggyWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DoggyWidget;
@@ -1074,7 +961,7 @@
 			};
 			name = Release;
 		};
-		18701D62295EE29300CA0F1E /* Debug */ = {
+		18701D62295EE29300CA0F1E /* Debug configuration for PBXNativeTarget "CountdownWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1082,7 +969,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CountdownWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CountdownWidget;
@@ -1104,7 +990,7 @@
 			};
 			name = Debug;
 		};
-		18701D63295EE29300CA0F1E /* Release */ = {
+		18701D63295EE29300CA0F1E /* Release configuration for PBXNativeTarget "CountdownWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1112,7 +998,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CountdownWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CountdownWidget;
@@ -1134,7 +1019,7 @@
 			};
 			name = Release;
 		};
-		18C99778298E4E4000EDE784 /* Debug */ = {
+		18C99778298E4E4000EDE784 /* Debug configuration for PBXNativeTarget "MyTextWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1142,7 +1027,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTextWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MyTextWidget;
@@ -1164,7 +1048,7 @@
 			};
 			name = Debug;
 		};
-		18C99779298E4E4000EDE784 /* Release */ = {
+		18C99779298E4E4000EDE784 /* Release configuration for PBXNativeTarget "MyTextWidgetExtension" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1172,7 +1056,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyTextWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MyTextWidget;
@@ -1194,7 +1077,7 @@
 			};
 			name = Release;
 		};
-		18D194A22938EC8A007E343C /* Debug */ = {
+		18D194A22938EC8A007E343C /* Debug configuration for PBXProject "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1228,6 +1111,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -1250,12 +1134,13 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		18D194A32938EC8A007E343C /* Release */ = {
+		18D194A32938EC8A007E343C /* Release configuration for PBXProject "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1289,6 +1174,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -1304,13 +1190,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		18D194A52938EC8A007E343C /* Debug */ = {
+		18D194A52938EC8A007E343C /* Debug configuration for PBXNativeTarget "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1319,7 +1206,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftSenpai-Widget-Sample/Preview Content\"";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftSenpai-Widget-Sample/Info.plist";
@@ -1343,7 +1229,7 @@
 			};
 			name = Debug;
 		};
-		18D194A62938EC8A007E343C /* Release */ = {
+		18D194A62938EC8A007E343C /* Release configuration for PBXNativeTarget "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1352,7 +1238,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftSenpai-Widget-Sample/Preview Content\"";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftSenpai-Widget-Sample/Info.plist";
@@ -1382,82 +1267,73 @@
 		180EF01729B07A4C0080195E /* Build configuration list for PBXNativeTarget "TapMeWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				180EF01529B07A4C0080195E /* Debug */,
-				180EF01629B07A4C0080195E /* Release */,
+				180EF01529B07A4C0080195E /* Debug configuration for PBXNativeTarget "TapMeWidgetExtension" */,
+				180EF01629B07A4C0080195E /* Release configuration for PBXNativeTarget "TapMeWidgetExtension" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		1813B89329A086FF00069A53 /* Build configuration list for PBXNativeTarget "CryptoPriceWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1813B89129A086FF00069A53 /* Debug */,
-				1813B89229A086FF00069A53 /* Release */,
+				1813B89129A086FF00069A53 /* Debug configuration for PBXNativeTarget "CryptoPriceWidgetExtension" */,
+				1813B89229A086FF00069A53 /* Release configuration for PBXNativeTarget "CryptoPriceWidgetExtension" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		1813B8DA29A0F64100069A53 /* Build configuration list for PBXNativeTarget "CryptoPriceIntentExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1813B8D829A0F64100069A53 /* Debug */,
-				1813B8D929A0F64100069A53 /* Release */,
+				1813B8D829A0F64100069A53 /* Debug configuration for PBXNativeTarget "CryptoPriceIntentExtension" */,
+				1813B8D929A0F64100069A53 /* Release configuration for PBXNativeTarget "CryptoPriceIntentExtension" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		1837987A2938EE0400B15D98 /* Build configuration list for PBXNativeTarget "ViewSizeWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				183798782938EE0400B15D98 /* Debug */,
-				183798792938EE0400B15D98 /* Release */,
+				183798782938EE0400B15D98 /* Debug configuration for PBXNativeTarget "ViewSizeWidgetExtension" */,
+				183798792938EE0400B15D98 /* Release configuration for PBXNativeTarget "ViewSizeWidgetExtension" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		18685FC5297EC8A900C690F7 /* Build configuration list for PBXNativeTarget "DoggyWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18685FC3297EC8A900C690F7 /* Debug */,
-				18685FC4297EC8A900C690F7 /* Release */,
+				18685FC3297EC8A900C690F7 /* Debug configuration for PBXNativeTarget "DoggyWidgetExtension" */,
+				18685FC4297EC8A900C690F7 /* Release configuration for PBXNativeTarget "DoggyWidgetExtension" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		18701D61295EE29300CA0F1E /* Build configuration list for PBXNativeTarget "CountdownWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18701D62295EE29300CA0F1E /* Debug */,
-				18701D63295EE29300CA0F1E /* Release */,
+				18701D62295EE29300CA0F1E /* Debug configuration for PBXNativeTarget "CountdownWidgetExtension" */,
+				18701D63295EE29300CA0F1E /* Release configuration for PBXNativeTarget "CountdownWidgetExtension" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		18C99777298E4E4000EDE784 /* Build configuration list for PBXNativeTarget "MyTextWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18C99778298E4E4000EDE784 /* Debug */,
-				18C99779298E4E4000EDE784 /* Release */,
+				18C99778298E4E4000EDE784 /* Debug configuration for PBXNativeTarget "MyTextWidgetExtension" */,
+				18C99779298E4E4000EDE784 /* Release configuration for PBXNativeTarget "MyTextWidgetExtension" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		18D194912938EC86007E343C /* Build configuration list for PBXProject "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D194A22938EC8A007E343C /* Debug */,
-				18D194A32938EC8A007E343C /* Release */,
+				18D194A22938EC8A007E343C /* Debug configuration for PBXProject "SwiftSenpai-Widget-Sample" */,
+				18D194A32938EC8A007E343C /* Release configuration for PBXProject "SwiftSenpai-Widget-Sample" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		18D194A42938EC8A007E343C /* Build configuration list for PBXNativeTarget "SwiftSenpai-Widget-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18D194A52938EC8A007E343C /* Debug */,
-				18D194A62938EC8A007E343C /* Release */,
+				18D194A52938EC8A007E343C /* Debug configuration for PBXNativeTarget "SwiftSenpai-Widget-Sample" */,
+				18D194A62938EC8A007E343C /* Release configuration for PBXNativeTarget "SwiftSenpai-Widget-Sample" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
